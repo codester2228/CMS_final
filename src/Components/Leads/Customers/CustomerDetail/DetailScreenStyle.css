@@ -1,0 +1,671 @@
+  /* ********************************CSS part for the Detailed Screen ****************************** */
+
+  .Detailsscreen{
+    position: absolute;
+    text-align: left;
+    width: 1101px;
+    height: 900.09px;
+    top: 52px;
+    z-index: 102;
+    left: -1px;
+    background: #F7F7F7;
+    
+  }
+.LeftCustomerMenutotal{
+  position: absolute;
+  width: 100%;
+  padding-bottom: 30px;
+  height: 900.09px;
+  margin-top: 50px;
+  background: #F7F7F7;
+
+  box-sizing: border-box;
+}
+.LeftCustomerMenu{
+  position: absolute;
+  width: 329px;
+  padding-bottom: 30px;
+  height: 900.09px;
+  background: #F7F7F7;
+  border: 0.389112px solid #595959;
+  box-sizing: border-box;
+}
+.CloseViewDetail{
+  float: right;
+  position: absolute;
+  left: 1050px;
+  top: 20px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30.7019px;
+line-height: 20px;
+color: #263238;
+transform: rotate(45deg);
+cursor: pointer;
+}
+.CustomerDeatilsContainer{
+  position: absolute;
+  width: 1097px;
+  height: 45.27px;
+  background: #F7F7F7;
+  border: 0.452675px solid #C4C4C4;
+  box-sizing: border-box;  
+}
+.LeftCustomerMenuHeader{
+  position: absolute;
+  width: 329px;
+  height: 45.27px;
+  background: #F7F7F7;
+  border: 0.452675px solid #C4C4C4;
+  box-sizing: border-box;  
+  display: flex;
+  flex-flow: row;
+}
+.CustomersType2nd{
+  width: 150.49px;
+  height: 38.52px;
+  margin:3px 0 2px 10px;
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  align-items: center;
+  font-weight: normal;
+  font-size: 16.5397px;
+  line-height: 19px;
+  color: #263238;
+  border: 1px solid #F7F7F7;
+  background: none;
+  cursor: pointer;
+
+}
+.CustomersType2nd:hover{
+background-color: #EBECF1;
+cursor: pointer;
+}
+.CustomersType2nd:after{
+background-color: #EBECF1;
+border: 1px solid #F7F7F7;
+  background: none;
+cursor: pointer;
+}
+.CustomersType2nd option{
+background-color: #ccc;
+border: none;
+background: none;
+}
+.CustomersType2nd option:hover{
+background-color: #ccc;
+border: none;
+background: none;
+}
+.addNewCus{
+  width: 62.47px;
+  height: 24.44px;
+  margin: 10px 0 2px 85px;
+  background: #4D5573;
+  border-radius: 2.71605px;  
+ 
+
+
+
+}
+.addNewCus h1{
+  margin: 4px 0 2px 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+  
+  color: #FFFFFF;
+}
+.CustomerDetails{
+  position: relative;
+  width: 329x;
+  height: 64px;
+  margin-left: 2px;
+  background:#ffffff;
+  border-bottom: 0.90535px solid #C4C4C4;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+
+  }
+.CustomerDetails:hover{
+background: rgba(240, 240, 240, 0.81);
+}
+.CustomerDetailsLink{
+  text-decoration: none;
+  color: #595959;
+  display: flex;
+  flex-flow: row;
+}
+
+.CustomerDetails h1{
+  width: 70.62px;
+  height: 14.49px;
+  margin: 10px 0 0 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+  color: #595959;
+}
+
+.CustomerDetails h2{
+  width: 120.62px;
+  height: 14.49px;
+  display: flex;
+  flex-flow: row;
+  margin: 10px 0 0 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+  color: #595959;
+}
+.CustomerDetails h2 span{
+width: 0px;
+height: 14.49px;
+margin: 0px 5px 0 5px;
+border: 0.90535px solid #595959;
+
+}
+.CheckBoxDetails{
+  margin: 20px 0 0 20px;
+}
+/* ****************************** CSS for Deatil contents and body ********************** */
+.ContentBody{
+  position: absolute;
+  width: 764px;
+  height:950px;
+  margin-left: 334px;
+  margin-top: -50px;
+  background: #FFFFFF;
+  border: 0.389112px solid #595959;
+  box-sizing: border-box;
+  text-align: left;
+}
+.CustomerName{
+  position: absolute;
+  width: 164.52px;
+  height: 30.75px;
+  top: 16.41px;
+  left: 25px;
+  text-align: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.6749px;
+  line-height: 15px;
+  color: #263238;  
+}
+.EDitAndDelete{
+  position: absolute;
+  border: 1px solid #595959;
+  width: 75px;
+  height: 25px;
+  margin-top: 16.41px;
+  margin-left: 625px;
+  display: flex;
+  flex-flow: "row";
+}
+.EditIcon{
+  
+  width: 37.5px;
+  height: 25px;
+  top: 16.41px;
+  
+  color: #595959; 
+  border-right: 1px solid #595959;
+}
+.DeleteIcon{
+  
+  width: 37.5px;
+  height: 25px;
+  top: 16.41px;
+  
+  color: #595959; 
+
+}
+.DetHorizantalLine{
+  position: absolute;
+  width: 721.56px;
+  left: 10px;
+  top: 53.41px;
+  border: 0.677852px solid #C4C4C4;
+}
+.FewDeatilsCustomer{
+  position: absolute;
+  width: 342px;
+  top: 60px;
+  margin-left: 0px;
+  display: flex;
+  flex-flow: column;
+  text-align: flex;
+  justify-content: none;
+  align-content: flex-start;
+}
+.FewDeatilsCustomer h1{
+  display: flex;
+  flex-flow: row;
+  width: 50%;
+  height: 17.2px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 16px;
+  color: #595959;
+}
+.FewDeatilsCustomer h2{
+  display: flex;
+  flex-flow: row;
+  width:100%;
+  height: 17.2px;
+  margin-left: -20px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 16px;
+  color: #595959;
+}
+.QuotationDetailHeading{
+  position: absolute;
+  width: 730px;
+  height: 27px;
+  top: 230px;
+  left: 10px;
+  background: #F5F5F5;
+  border: 0.677852px solid #E0E0E0;
+  box-sizing: border-box; 
+}
+.QuotationDetailHeading h1{
+  width: 192.51px;
+  height: 17.62px;
+  margin: 3px 0 1px 7px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.48992px;
+  line-height: 16px;
+  /* or 167% */
+  
+  
+  color: #595959;
+}
+
+/* **************************************** CSS for  Quotation Detail Table ****************************/
+.QuotationDetailTable{
+  
+  position: absolute;
+  width: 730px;
+  height: 298px;
+  left: 10px;
+  top: 265px;
+  background: #FFFFFF;
+}
+.TableBody{
+  border-collapse: collapse;
+}
+.TableBody tr:hover{
+background: #fff;
+}
+.TableBody tr th {
+  border: 0.381499px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.01726px;
+  line-height: 15px;
+  color: #595959;
+}
+.TableBody tr td{
+  border: 0.381499px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11.01726px;
+line-height: 11px;
+
+color: #595959;
+}
+
+.TableBody tr{
+  text-align: left;
+  margin-left: 20px;
+}
+.TableBody tr th{
+  text-align: left;
+  padding-left: 20px;
+}
+.TableBody tr td:nth-child(1){
+  margin: 0 0 0 10px;
+  height: inherit;
+
+}
+.TableBody tr td div:nth-child(1){
+  width: 168.53px;
+  height: 17.56px;
+  padding : 5px 0 0 5px;
+  margin: 5px 5px 0px 5px;
+  background: rgba(242, 143, 143, 0.3);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.01726px;
+  line-height: 11px;
+
+  color: #595959;
+}
+.TableBody tr td div{
+  width: 168.53px;
+  height: 17.56px;
+  margin: 0px 5px 10px 0px;
+  padding: 0px 0 0 0px;
+}
+
+.TableBody tr td div h1{
+  width: 131.53px;
+  height: 17.56px;
+  padding: 5px 0 0 5px;
+  margin: 5px 5px 5px 5px;
+  background: #E4ECED;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.01726px;
+  line-height: 11px;
+  border-radius: 1.93084px;
+  color: #595959;
+}
+.TableBody tr td div h2{
+  padding: 5px 0 15px 5px;
+  margin: 5px 0px 0px 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.01726px;
+  line-height: 22px;
+
+  color: #595959;
+}
+.TableBody tr td:nth-child(4){
+ text-align: right;
+ padding-right: 10px;
+}
+.TableBody tr td:nth-child(5){
+  text-align: right;
+  padding-right: 10px;
+ }
+ .TableBody tr td:nth-child(6){
+  text-align: right;
+  padding-right: 10px;
+ }
+ .TableBody tr td:nth-child(7){
+  text-align: right;
+  padding-right: 10px;
+ }
+ .TableBody tr td:nth-child(8){
+  text-align: right;
+  padding-right: 10px;
+ }
+ .TableBody tr td:nth-child(9){
+  text-align: right;
+  padding-right: 10px;
+ }
+
+
+ /* **************************css fro subtotal box ********************** */
+ .SubtotalBox{
+
+  width: 730px;
+  height: 40px;
+  margin: 0px 0 0 0px;
+  
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+ }
+ .TotalAmount{
+  width: 208px;
+  height: 32px;
+  margin: 3px 5px 0 517px;
+  background: rgba(255, 168, 167, 0.3);  
+  display: flex;
+  flex-flow: row;
+ }
+ .TotalAmount h1{
+  padding: 0px 0 0 35px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  
+  color: #595959;
+ }
+ .TotalAmount  h2{
+   width: 120px;
+  padding: 10px 0 5px 0px;
+  margin: 0px 0 0 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: #595959;
+  
+ }
+
+
+ /* ***********************************CSS part for Invoice with GST*************************************** */
+ .DownloadInvoiceGSt{
+  width: 346px;
+  height: 40px;
+  margin: 25px 0 0 5px;
+  background: rgba(184, 38, 108, 0.3);
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #595959;
+  display: flex;
+  flex-flow: row;
+ }
+
+ .DownloadInvoiceGSt h1{
+   margin-left: 10px;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #595959;
+ }
+ .DownloadInvoiceGSt h2{
+  margin: 10px 0 0 160px;
+  float:right;
+
+}
+.CalcutionsSGT{
+  margin: 2px 0 0 5px;
+  width: 346px;
+  height: 194px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+}
+.CalcutionsSGT h1{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.CalcutionsSGT h1 label{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  margin: 5px 0 0 20px;
+  color: #595959;
+  text-align: left;
+  width: 140px;
+}
+.CalcutionsSGT h1 label:nth-child(2){
+  width: 140px;
+  margin: 5px 20 0 20px;
+  text-align: right;
+}
+.SelectPercent{
+  width: 142px;
+  margin-left: 10px;
+  padding-left: 60px;
+  height:27px;
+}
+
+.DisCountLable{
+  width: 100px;
+  padding-left: 30px;
+}
+
+.CalcutionsSGT h2{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.CalcutionsSGT h2 label{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  margin: 5px 0 0 20px;
+  color: #595959;
+  text-align: left;
+  width: 140px;
+}
+.CalcutionsSGT h2 label:nth-child(2){
+  width: 140px;
+  margin: 5px 20 0 20px;
+  text-align: right;
+}
+/* ***********************************CSS part for Invoice without GST*************************************** */
+.DownloadInvoice{
+  width: 346px;
+  height: 40px;
+
+  margin: -235px 0 0 370px;
+  background: rgba(197, 228, 230, 0.3);
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #595959;
+  display: flex;
+  flex-flow: row;  
+ }
+
+ 
+
+ .DownloadInvoice h1{
+margin-left: 10px;
+ box-sizing: border-box;
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 16px;
+ color: #595959;
+}
+.DownloadInvoice h2{
+ margin: 10px 0 0 140px;
+ float:right;
+
+}
+.Calcutions{
+ margin: 2px 0 0 370px;
+ width: 346px;
+ height: 194px;
+ background: #FFFFFF;
+ border: 0.5px solid rgba(0, 0, 0, 0.7);
+ box-sizing: border-box;
+}
+.Calcutions h1{
+ width: 100%;
+ padding: 5px 0px 20px 0px;
+ display: flex;
+ flex-flow: row;
+}
+.Calcutions h1 label{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 13px;
+ line-height: 15px;
+ text-align: right;
+ margin: 5px 0 0 20px;
+ color: #595959;
+ text-align: left;
+ width: 140px;
+}
+.Calcutions h1 label:nth-child(2){
+ width: 140px;
+ margin: 5px 20 0 20px;
+ text-align: right;
+}
+.SelectPercent{
+ width: 142px;
+ margin-left: 10px;
+ padding-left: 60px;
+ height:27px;
+}
+
+.DisCountLable{
+ width: 100px;
+ padding-left: 30px;
+}
+
+.Calcutions h2{
+ width: 100%;
+ display: flex;
+ flex-flow: row;
+}
+.Calcutions h2 label{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 13px;
+ line-height: 15px;
+ text-align: right;
+ margin: 5px 0 0 20px;
+ color: #595959;
+ text-align: left;
+ width: 140px;
+}
+.Calcutions h2 label:nth-child(2){
+ width: 140px;
+ margin: 5px 20 0 20px;
+ text-align: right;
+}

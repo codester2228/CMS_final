@@ -1,0 +1,354 @@
+/* *************************************** CSS part for Top Header ******************************* */
+.TopHeader{
+    position: fixed;
+    width: 1275px;
+    height: 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 0.511906px 2.04762px rgba(0, 0, 0, 0.25);
+    border-radius: 0.761716px;
+    z-index: 1000;
+}
+.LeftHeader{
+    display: flex;
+    flex-flow: row;
+}
+.LeftHeadName1{
+    position: absolute;
+    width: 62.46px;
+    height: 14.47px;
+    left: 29.11px;
+    top: 5.7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.7109px;
+    line-height: 21px;
+    color: #595959;   
+
+}
+.LeftHeadName2{
+    position: absolute;
+    width: 66.27px;
+    height: 14.47px;
+    left: 95.53px;
+    top: 8.7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.664px;
+    line-height: 21px;
+    color: #595959;
+}
+.TopHeaderLeftLine{
+    position: absolute;
+    width: 22.09px;
+    height: 0px;
+    left: 70.28px;
+    top: 25.64px;
+    
+    border: 0.761716px solid #595959;
+    transform: rotate(-90deg);
+}
+.RightHeader{
+    float: right;
+    width: 400px;
+    height: 47px;
+   
+
+}
+
+.rightHeadOnetxt{
+    position: absolute;
+    width: 66.27px;
+    height: 14.47px;
+    left: 925.39px;
+    top: 8.97px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.664px;
+    line-height: 16px;
+    color: #595959;
+}
+.CallIcon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 904.73px;
+    top: 17px;
+    transform: rotate(90deg);
+}
+.BellIcon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1017.08px;
+    top: 16px;
+}
+.rightHeadTwotxt{
+    position: absolute;
+    width: 66.27px;
+    height: 14.47px;
+    left: 1035.08px;
+    top: 8.21px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.664px;
+    line-height: 16px;
+    
+    color: #595959;
+}
+.LogoIcon{
+    position: absolute;
+    width: 39.61px;
+    height: 28px;
+    left: 1114.3px;
+    top: 9.59px;
+    
+}
+.rightHeadThreetxt{
+    position: absolute;
+    width: 107.4px;
+    height: 14.47px;
+    left: 1155.43px;
+    top: 8.21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.664px;
+    line-height: 16px;
+    color: #595959;    
+}
+/* ******************************************Ending of CSS style sheet for Top Header ******************************* */
+
+
+
+/* ******************************************start of  CSS part for Right Header ************************************ */
+
+.RightHeaderMain{
+    position: fixed;
+    width: 168px;
+    height: 950px;
+    
+    top: 52px;
+    
+    background: #4D5573;
+    border: 0.389112px solid #595959;
+    box-sizing: border-box;
+    border-radius: 0.778224px;
+}
+.WelcomeQuit h2{
+    position: absolute;
+    width: 87.54px;
+    height: 15.87px;
+    left: 22.15px;
+    top: 6.5px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+
+}
+.WelcomeQuit h1{
+    position: absolute;
+    width: 79.75px;
+    height: 18.61px;
+    left: 76.87px;
+    top: 1px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.9506px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    
+}
+.TwoModulers{
+    position: absolute;
+    top: 40px;
+    color: #FFFFFF;  
+    margin-left: -20px;
+    list-style-type: none;
+}
+.TwoModulers li{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+}
+.DashBoardIcon{
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    
+}
+.LeadsIcon{
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    
+}
+.LeadsBtn{
+    margin-top:10px;
+    width: 168px;
+
+    margin-left: -20.5px;
+}
+.LeadsBtn01{
+    margin-top:10px;
+    width: 168px;
+    background: #313854;
+    margin-left: -20.5px;
+}
+.DashzboardTxt{
+    padding-left: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;   
+}
+.LeadsTxt{
+    padding-left: 12px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;   
+}
+.LeadsDrop{
+    width: 22px;
+    height: 22px;  
+    padding-left:50px;
+    cursor: pointer;  
+}
+.LeadsDropDown{
+    position: absolute;
+    width: 168px;
+    height: 90px;
+    left: -0.2px;
+    top: 123.2px;
+    background: #282E45;
+}
+.LeadsDropDown01{
+    position: absolute;
+    width: 168px;
+    height: 90px;
+    left: -0.2px;
+    top: 123.2px;
+    background: #282E45;
+    display: none;
+}
+.ShowList{
+    height: 89.5px;
+    justify-content: space-around;
+}
+.LeadsDropDown ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.CustomerTxt{
+    padding-left: 48px;
+    padding-top: 10px;
+    margin-top: -10px;
+    height: 20px;
+    margin-left: -40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;  
+    justify-content: space-around;
+}
+.PartnerTxt{
+    padding-left: 48px;
+    padding-top: 10px;
+    height: 20px;
+    margin-left: -40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;  
+    justify-content: space-around;    
+    margin-top: -10px;
+}
+.CustomerTxt:hover{
+   background: #232734;
+   color: #5976E3;
+}
+.PartnerTxt:hover{
+    background: #232734;
+    color: #5976E3;
+ }
+ .FiveModules{
+    position: absolute;
+    width: 168px;
+    top: 210px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;    
+ }
+ .FiveModules01{
+    position: absolute;
+    width: 168px;
+    top: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;    
+ }
+ .UlLisFiveBtns{
+     width: 100%;
+ }
+ .UlLisFiveBtns li{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    padding: 10px 0 10px 0;
+ }
+ .Icons{
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    margin-left: -21.5px;   
+ }
+ .UlLisFiveBtns li h1{
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;  
+    
+} 
+/* *****************************Ending of css styles for Right Header ********************************* */
+
+/* **************************Starting style sheet for Modules *************************** */
+.MainOutline{
+    position: absolute;
+    width: 1092px;
+    height: 950px;
+    left: 171px;
+}

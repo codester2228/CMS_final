@@ -1,0 +1,125 @@
+.AddNewCustomerBtn{
+    position: absolute;
+    width: 119.63px;
+    height: 23.93px;
+    left: 950.84px;
+    top: 60.66px;
+    background: #4D5573;
+    border-radius: 2.65844px; 
+    z-index: 101;  
+    cursor: pointer;
+
+}
+.AddNewCustomerBtn h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.406px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+/* ******************************** top Header of New Customer *********************  */
+.UnderLineHeader{
+    position: absolute;
+    width: 1094.06px;
+    height: 0px;
+    left: 2px;
+    top: 60.19px;
+    z-index: 102;
+    border: 0.927885px solid #C4C4C4;
+}
+.CustomerHeader{
+    display: flex;
+    flex-flow: row;
+    width: 1096.06px;
+}
+.CustomerHeaderName{
+    width: 227.57px;
+    height: 42.53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.7019px;
+    line-height: 20px;
+    margin: 20px 0 0 18px;
+    color: #263238;    
+}
+.CustomerHeaderClose{
+    width: 12.19px;
+    height: 12.19px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 840.77px;
+    margin-top: -10px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    z-index: 102
+}
+/* *********************CSS for Adding New Customer **************** */
+.AddingNewCustomer{
+    position: absolute;
+    width: 1100px;
+    height: 780.09px;
+    z-index: 102;
+    background: #FFFFFF;
+    border: 0.463942px solid #919191;
+    display: none;
+}
+.AddingNewCustomer01{
+    position: absolute;
+    width: 1100px;
+    top:52px;
+    height: 780.09px;
+    z-index: 102;
+    background: #FFFFFF;
+    border: 0.463942px solid #919191;
+}
+.FormBody {
+    position: absolute;
+    width: 1097px;
+    height: 680.09px;
+    
+    background: #FFFFFF;
+  }
+  
+  .InputClientname{
+    margin: 35px 0 0 20px;
+  }
+  .InputPhoneNo{
+    margin: 30px 0 0 20px;
+  }
+  .InfoInput{
+    position: absolute;
+    width: 80.63px;
+    height: 24.38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    color: #595959;
+  }
+  .TypeInput{
+    margin-left: 125px;
+    width: 184.71px;
+    height: 24.38px;
+    background: #FFFFFF;
+    border: 0.927885px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+  
+  .TypeInputSelectShoot{
+    margin-left: 125px;
+    width: 358.17px;
+    height: 24.38px;
+    background: #FFFFFF;
+    border: 0.927885px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+  .CilentLastName{
+    margin-left: 50px;
+  }

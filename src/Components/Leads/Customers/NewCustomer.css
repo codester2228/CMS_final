@@ -1,0 +1,808 @@
+.AddNewCustomerBtn {
+  position: absolute;
+  width: 119.63px;
+  height: 23.93px;
+  left: 950.84px;
+  top: 60.66px;
+  background: #4d5573;
+  border-radius: 2.65844px;
+  z-index: 102;
+  cursor: pointer;
+}
+.AddNewCustomerBtn h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.406px;
+  line-height: 15px;
+  color: #ffffff;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+/* ******************************** top Header of New Customer *********************  */
+.UnderLineHeader {
+  position: absolute;
+  width: 1096.06px;
+  height: 0px;
+  top: 57.19px;
+  z-index: 102;
+  border: 0.927885px solid #c4c4c4;
+}
+.CustomerHeader {
+  display: flex;
+  flex-flow: row;
+  width: 1096.06px;
+}
+.CustomerHeaderName {
+  width: 227.57px;
+  height: 42.53px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.7019px;
+  line-height: 20px;
+  margin: 20px 0 0 18px;
+  color: #263238;
+}
+.CustomerHeaderClose {
+  width: 12.19px;
+  height: 12.19px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 840.77px;
+  margin-top: -12px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+/* *********************CSS for Adding New Customer **************** */
+.AddingNewCustomer {
+  position: absolute;
+  width: 1097px;
+  height: 780.09px;
+  z-index: 102;
+  background: #ffffff;
+  border: 0.463942px solid #919191;
+  display: none;
+}
+.AddingNewCustomer01 {
+  position: absolute;
+  width: 1097px;
+  top: 53px;
+  height: 100%;
+  z-index: 102;
+  background: #ffffff;
+  /* border: 0.463942px solid #919191; */
+}
+.FormBody {
+  position: absolute;
+  width: 1097px;
+  height: 680.09px;
+  background: #ffffff;
+}
+
+.InputClientname {
+  margin: 15px 0 0 20px;
+}
+.InputPhoneNo {
+  margin: 30px 0 0 20px;
+}
+.InfoInput {
+  position: absolute;
+  width: 80.63px;
+  height: 24.38px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #595959;
+}
+.TypeInput {
+  margin-left: 125px;
+  width: 184.71px;
+  height: 24.38px;
+  background: #ffffff;
+  border: 0.927885px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.TypeInputSelectShoot {
+  margin-left: 125px;
+  width: 358.17px;
+  height: 24.38px;
+  background: #ffffff;
+  border: 0.927885px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.CilentLastName {
+  margin-left: 50px;
+}
+
+/* quotation details  */
+.rectangleQuotation {
+  position: absolute;
+  width: 1066.06px;
+  height: 36.57px;
+  top: 386px;
+  background: #f5f5f5;
+  border: 0.927885px solid #e0e0e0;
+  box-sizing: border-box;
+}
+.quotationDetails {
+  position: absolute;
+  width: 161.27px;
+  height: 36.57px;
+
+  background: #4d5573;
+}
+.quotationDetailsText {
+  position: absolute;
+  width: 157.52px;
+  height: 24.38px;
+  left: 13px;
+  top: -8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.8462px;
+  line-height: 22px;
+
+  /* or 146% */
+
+  color: #ffffff;
+}
+
+.prewedding {
+  position: absolute;
+  width: 85.32px;
+  height: 16.88px;
+  left: 171px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 5px;
+}
+.preweddingText {
+  position: absolute;
+  width: 89.88px;
+  height: 16.88px;
+  left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.engagement {
+  position: absolute;
+  width: 85.32px;
+  height: 16.88px;
+  left: 299px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+.engagementText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.haldi {
+  position: absolute;
+  width: 85.32px;
+  height: 16.88px;
+  left: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+.haldiText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 34px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.mehendi {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 565px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+.mehendiText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.wedding {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 698px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+.weddingText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.reception {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 831px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+.receptionText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+.others {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 959px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #595959;
+  top: 4px;
+}
+
+.othersText {
+  position: absolute;
+  width: 61.88px;
+  height: 16.88px;
+  left: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  top: -7px;
+}
+
+.selected {
+  position: absolute;
+  width: 100.32px;
+  height: 25.32px;
+  color: #ffffff;
+  background: #f28f8f;
+  border-radius: 25.9808px;
+}
+
+.table-dummy {
+  position: absolute;
+  width: 1049px;
+  height: 113px;
+
+  background: #ffffff;
+  border: 0.927885px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.photographerCount {
+  position: absolute;
+  width: 45px;
+
+  background: #f0f0f0;
+  border: 0.927885px solid #b2b2b2;
+  box-sizing: border-box;
+}
+
+/* .checkBoxModal {
+  position: absolute;
+  width: 280px;
+  height: 285px;
+  background: #f4f4f4;
+  border: 1px solid #2f2f2f;
+  box-sizing: border-box;
+  border-radius: 2.78365px;
+} */
+
+.checkBoxes {
+  background: none !important;
+}
+
+/* for table */
+
+/* ********************************CSS part for the Detailed Screen ****************************** */
+.QuotationDetailTableNewCustomer {
+  position: absolute;
+  width: 1063px;
+  height: 298px;
+  left: 2px;
+  top: 434px;
+  background: #ffffff;
+}
+.Detailsscreen01 {
+  position: absolute;
+  text-align: left;
+  width: 1050px;
+  height: 900.09px;
+  margin-left: -45px;
+  z-index: 102;
+
+  background: #f7f7f7;
+}
+.LeftCustomerMenutotal {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 30px;
+  height: 900.09px;
+  margin-top: 50px;
+  background: #f7f7f7;
+
+  box-sizing: border-box;
+}
+.LeftCustomerMenu {
+  position: absolute;
+  width: 329px;
+  padding-bottom: 30px;
+  height: 900.09px;
+  background: #f7f7f7;
+  border: 0.389112px solid #595959;
+  box-sizing: border-box;
+}
+.CloseViewDetail {
+  float: right;
+  position: absolute;
+  left: 1050px;
+  top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7019px;
+  line-height: 20px;
+  color: #263238;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.CustomerDeatilsContainer {
+  position: absolute;
+  width: 1097px;
+  height: 45.27px;
+  background: #f7f7f7;
+  border: 0.452675px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.LeftCustomerMenuHeader {
+  position: absolute;
+  width: 329px;
+  height: 45.27px;
+  background: #f7f7f7;
+  border: 0.452675px solid #c4c4c4;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+}
+.CustomersType2nd {
+  width: 150.49px;
+  height: 38.52px;
+  margin: 3px 0 2px 10px;
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  align-items: center;
+  font-weight: normal;
+  font-size: 16.5397px;
+  line-height: 19px;
+  color: #263238;
+  border: 1px solid #f7f7f7;
+  background: none;
+  cursor: pointer;
+}
+.CustomersType2nd:hover {
+  background-color: #ebecf1;
+  cursor: pointer;
+}
+.CustomersType2nd:after {
+  background-color: #ebecf1;
+  border: 1px solid #f7f7f7;
+  background: none;
+  cursor: pointer;
+}
+.CustomersType2nd option {
+  background-color: #ccc;
+  border: none;
+  background: none;
+}
+.CustomersType2nd option:hover {
+  background-color: #ccc;
+  border: none;
+  background: none;
+}
+.addNewCus {
+  width: 62.47px;
+  height: 24.44px;
+  margin: 10px 0 2px 85px;
+  background: #4d5573;
+  border-radius: 2.71605px;
+}
+.addNewCus h1 {
+  margin: 4px 0 2px 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+.CustomerDetails {
+  position: relative;
+  width: 329x;
+  height: 64px;
+  margin-left: 2px;
+  background: #ffffff;
+  border-bottom: 0.90535px solid #c4c4c4;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+}
+.CustomerDetails:hover {
+  background: rgba(240, 240, 240, 0.81);
+}
+.CustomerDetailsLink {
+  text-decoration: none;
+  color: #595959;
+  display: flex;
+  flex-flow: row;
+}
+
+.CustomerDetails h1 {
+  width: 70.62px;
+  height: 14.49px;
+  margin: 10px 0 0 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+  color: #595959;
+}
+
+.CustomerDetails h2 {
+  width: 120.62px;
+  height: 14.49px;
+  display: flex;
+  flex-flow: row;
+  margin: 10px 0 0 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 15px;
+  color: #595959;
+}
+.CustomerDetails h2 span {
+  width: 0px;
+  height: 14.49px;
+  margin: 0px 5px 0 5px;
+  border: 0.90535px solid #595959;
+}
+.CheckBoxDetails {
+  margin: 20px 0 0 20px;
+}
+/* ****************************** CSS for Deatil contents and body ********************** */
+.ContentBody {
+  position: absolute;
+  width: 764px;
+  height: 950px;
+  margin-left: 334px;
+  margin-top: -50px;
+  background: #ffffff;
+  border: 0.389112px solid #595959;
+  box-sizing: border-box;
+  text-align: left;
+}
+.CustomerName {
+  position: absolute;
+  width: 164.52px;
+  height: 30.75px;
+  top: 16.41px;
+  left: 25px;
+  text-align: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.6749px;
+  line-height: 15px;
+  color: #263238;
+}
+.EDitAndDelete {
+  position: absolute;
+  border: 1px solid #595959;
+  width: 75px;
+  height: 25px;
+  margin-top: 16.41px;
+  margin-left: 625px;
+  display: flex;
+  flex-flow: "row";
+}
+.EditIcon {
+  width: 37.5px;
+  height: 25px;
+  top: 16.41px;
+
+  color: #595959;
+  border-right: 1px solid #595959;
+}
+.DeleteIcon {
+  width: 37.5px;
+  height: 25px;
+  top: 16.41px;
+
+  color: #595959;
+}
+.DetHorizantalLine {
+  position: absolute;
+  width: 721.56px;
+  left: 10px;
+  top: 53.41px;
+  border: 0.677852px solid #c4c4c4;
+}
+.FewDeatilsCustomer {
+  position: absolute;
+  width: 342px;
+  top: 60px;
+  margin-left: 0px;
+  display: flex;
+  flex-flow: column;
+  text-align: flex;
+  justify-content: none;
+  align-content: flex-start;
+}
+.FewDeatilsCustomer h1 {
+  display: flex;
+  flex-flow: row;
+  width: 50%;
+  height: 17.2px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 16px;
+  color: #595959;
+}
+.FewDeatilsCustomer h2 {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 17.2px;
+  margin-left: -20px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6749px;
+  line-height: 16px;
+  color: #595959;
+}
+.QuotationDetailHeading {
+  position: absolute;
+  width: 730px;
+  height: 27px;
+  top: 230px;
+  left: 10px;
+  background: #f5f5f5;
+  border: 0.677852px solid #e0e0e0;
+  box-sizing: border-box;
+}
+.QuotationDetailHeading h1 {
+  width: 192.51px;
+  height: 17.62px;
+  margin: 3px 0 1px 7px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.48992px;
+  line-height: 16px;
+  /* or 167% */
+
+  color: #595959;
+}
+
+/* **************************************** CSS for  Quotation Detail Table ****************************/
+
+.TableBody1 tr:hover {
+  background: #fff;
+}
+.TableBody1 tr th {
+  border: 0.381499px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.01726px;
+  line-height: 15px;
+  color: #595959;
+}
+.TableBody1 tr td {
+  border: 0.381499px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.01726px;
+  line-height: 11px;
+
+  color: #595959;
+}
+
+.TableBody1 tr {
+  text-align: left;
+  margin-left: 20px;
+}
+.TableBody1 tr th {
+  text-align: left;
+  padding-left: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+
+  /* or 167% */
+
+  color: #595959;
+}
+.TableBody1 tr td:nth-child(1) {
+  margin: 0 0 0 10px;
+  height: inherit;
+}
+.TableBody1 tr td div:nth-child(1) {
+  width: 168.53px;
+  height: 17.56px;
+  padding: 5px 0 0 5px;
+  margin: 5px 5px 0px 5px;
+  background: rgba(242, 143, 143, 0.3);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.01726px;
+  line-height: 11px;
+
+  color: #595959;
+}
+.TableBody1 tr td div {
+  width: 168.53px;
+  height: 17.56px;
+  margin: 0px 5px 10px 0px;
+  padding: 0px 0 0 0px;
+}
+
+.TableBody1 tr td div h1 {
+  width: 131.53px;
+  height: 17.56px;
+  padding: 5px 0 0 5px;
+  margin: 5px 5px 5px 5px;
+  background: #e4eced;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.01726px;
+  line-height: 11px;
+  border-radius: 1.93084px;
+  color: #595959;
+}
+.TableBody1 tr td div h2 {
+  padding: 5px 0 15px 5px;
+  margin: 5px 0px 0px 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.01726px;
+  line-height: 22px;
+
+  color: #595959;
+}
+.TableBody1 tr td:nth-child(4) {
+  text-align: right;
+  padding-right: 10px;
+}
+.TableBody1 tr td:nth-child(5) {
+  text-align: right;
+  padding-right: 10px;
+}
+.TableBody1 tr td:nth-child(6) {
+  text-align: right;
+  padding-right: 10px;
+}
+.TableBody1 tr td:nth-child(7) {
+  text-align: right;
+  padding-right: 10px;
+}
+.TableBody1 tr td:nth-child(8) {
+  text-align: right;
+  padding-right: 10px;
+}
+.TableBody1 tr td:nth-child(9) {
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* **************************css fro subtotal box ********************** */
+/* .SubtotalBox {
+  width: 346px;
+  height: 210px;
+  margin: 5px 0 0 385px;
+
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+} */
